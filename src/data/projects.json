@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "name": "Rentar",
+      "description": "The \"Rental Cars\" project aims to streamline the car rental process, providing an efficient and enjoyable experience for customers while offering robust management tools for administrators. The system prioritizes ease of use, reliability, and data security to ensure a positive and hassle-free rental experience",
+      "technologies":
+        {
+            "frontend":["ReactJS","Redux","React Router","Chakra UI"],
+            "backend":["NodeJS","ExpressJS"],
+            "database":["MongoDB","Mongoose"],
+            "authentication":"JWT",
+            "testing":"Jest",
+            "versionControl":"Git",
+            "documentation":"Swagger",
+            "deployment":"Heroku"
+        }
+      ,
+      "image": "projects/rentar_project.jpg",
+      "url": "https://rentar.com"
+    },
+    {
+        "name": "YouWeHunt",
+        "description": "The Platform aims to simplify the job search process by providing a feature-rich and user-friendly environment for both job seekers and employers. The platform prioritizes efficiency, transparency, and personalized experiences, ultimately fostering a positive and productive connection between talent and hiring organizations.",
+        "technologies":
+          {
+              "frontend":["ReactJS","Redux","React Router","Chakra UI"],
+              "backend":["NodeJS","ExpressJS"],
+              "database":["MongoDB","Mongoose"],
+              "authentication":"JWT",
+              "testing":"Jest",
+              "versionControl":"Git",
+              "documentation":"Swagger",
+              "deployment":"Heroku"
+          }
+        ,
+        "image": "/projects/youwehunt_project.png",
+        "url": "https://rentar.com"
+      },
+      {
+        "name": "Ustaad",
+        "description": "The Platform aims to democratize education, providing a flexible and accessible avenue for learners worldwide. The project focuses on fostering a vibrant learning community, offering diverse courses, and ensuring a seamless online educational experience for both students and instructors.",
+        "technologies":
+          {
+              "frontend":["ReactJS","Redux","React Router","Chakra UI"],
+              "backend":["NodeJS","ExpressJS"],
+              "database":["MongoDB","Mongoose"],
+              "authentication":"JWT",
+              "testing":"Jest",
+              "versionControl":"Git",
+              "documentation":"Swagger",
+              "deployment":"Heroku"
+          }
+        ,
+        "image": "/projects/ustaad_project.png",
+        "url": "https://rentar.com"
+      },
+      {
+        "name": "ReviewHub",
+        "description": "The Movie Review Platform aspires to be a go-to destination for movie enthusiasts, providing a user-friendly interface for discovering, reviewing, and discussing movies. The project emphasizes community engagement, personalized recommendations, and a rich database of movie-related content to enhance the overall movie-watching experience.",
+        "technologies":
+          {
+              "frontend":["ReactJS","Redux","React Router","Chakra UI"],
+              "backend":["NodeJS","ExpressJS"],
+              "database":["MongoDB","Mongoose"],
+              "authentication":"JWT",
+              "testing":"Jest",
+              "versionControl":"Git",
+              "documentation":"Swagger",
+              "deployment":"Heroku"
+          }
+        ,
+        "image": "/projects/reviewhub_project.JPG",
+        "url": "https://rentar.com"
+      }
+  ]
+}
