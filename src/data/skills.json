@@ -1,0 +1,22 @@
+{
+    "skills":[
+        {"image":"bootstrap.svg","tooltip":"bootstrap"},
+        {"image":"javascript.svg","tooltip":"javascript"},
+        {"image":"npm.svg","tooltip":"npm"},
+        {"image":"css.svg","tooltip":"css"},
+        {"image":"react.svg","tooltip":"react"},
+        {"image":"express-js.svg  ","tooltip":"express-js"},
+        {"image":"mongodb.svg","tooltip":"mongo-db"},
+        {"image":"react-query.png","tooltip":"react-query"},
+        {"image":"mysql.png","tooltip":"mysql"},
+        {"image":"react-router.svg","tooltip":"react-router"},
+        {"image":"framer-motion.png","tooltip":"framer-motion"},
+        {"image":"nextjs.svg","tooltip":"nextjs"},
+        {"image":"redux.svg","tooltip":"redux"},
+        {"image":"html5.svg","tooltip":"html-5"},
+        {"image":"nodejs.svg","tooltip":"nodejs"},
+        {"image":"tailwindcss.svg","tooltip":"tailwindcss"}
+    ]
+}
+
+
