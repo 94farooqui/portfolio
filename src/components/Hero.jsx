@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='w-full h-full mx-auto flex items-center justify-between'>
             <div>
                 <h4 className='text-6xl font-bold text-slate-200 leading-tight '>Hi, <br/> I'm <span>Mubasshir Farooqui</span></h4>
-                <h4 className='text-indigo-400 font-bold text-5xl leading-tight'>Web Developer</h4>
+                <h4 className='text-indigo-500 font-bold text-5xl leading-tight'>Web Developer</h4>
             </div>
             <div>
                 <img src='join.svg' width={'400px'} />
