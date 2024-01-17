@@ -13,7 +13,10 @@ const Hero = () => {
                 <img src='join.svg' width={'400px'} />
             </div>
         </div>
-        <h1 className='text-white'>github</h1>
+        <div className='flex gap-4'>
+          <img src='github.svg' className='w-[48px] h-[48px] invert opacity-30'  />
+          <img src='linkedin.svg' className='w-[48px] h-[48px] invert opacity-30'  />
+        </div>
         </div>
     </div>
   )
