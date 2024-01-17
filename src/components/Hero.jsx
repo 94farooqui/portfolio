@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full h-[calc(100vh-60px)]'>
+    <div className='w-full h-[calc(100vh-100px)]'>
         <div className='h-full flex flex-col justify-center py-8'>
         <div className='w-full h-full mx-auto flex items-center justify-between'>
             <div>
