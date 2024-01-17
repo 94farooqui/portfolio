@@ -5,7 +5,7 @@ const Project = ({project}) => {
   return (
     <div className='grid grid-cols-3 gap-6 hover:bg-gray-800 p-8 rounded-lg group'>
         
-        <div className='col-start-1 col-span-1 w-[400px] h-[300px] rounded-lg overflow-hidden drop-shadow-lg'>
+        <div className='col-start-1 col-span-1 w-[320px] h-[200px] rounded-lg overflow-hidden drop-shadow-lg'>
             <img src={project.image} className='w-[400px] h-[300px] object-cover'/>
         </div>
         <div className='col-start-2 col-span-2 flex flex-col gap-4 rounded-lg drop-shadow-lg group-hover:drop-shadow-none'>

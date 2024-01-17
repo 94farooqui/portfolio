@@ -10,10 +10,10 @@ const Navbar = () => {
             <p className={`rounded-full text-slate-400 py-2 px-6 font-semibold text-xl ${darkTheme ? `bg-zinc-800`:`bg-gray-700`}`}><NavLink to='/' className={({isActive})=> (isActive ? 'text-white':'')}>Home</NavLink></p>
             <div className={`rounded-full py-2 px-12 ${darkTheme ? `bg-zinc-800`:`bg-gray-700`} `}>
                 <ul className='flex gap-8 text-slate-400 font-semibold text-xl'>
-                    <li><NavLink to='/about' className={({isActive})=> (isActive ? 'text-white':'')}>About</NavLink></li>
-                    <li><NavLink to='/skills' className={({isActive})=> (isActive ? 'text-white':'')}>Skills</NavLink></li>
-                    <li><NavLink to='/projects' className={({isActive})=> (isActive ? 'text-white':'')}>Projects</NavLink></li>
-                    <li><NavLink to='/contact' className={({isActive})=> (isActive ? 'text-white':'')}>Contact</NavLink></li>
+                    <li className='hover:text-white'><NavLink to='/about' className={({isActive})=> (isActive ? 'text-white':'')}>About</NavLink></li>
+                    <li className='hover:text-white'><NavLink to='/skills' className={({isActive})=> (isActive ? 'text-white':'')}>Skills</NavLink></li>
+                    <li className='hover:text-white'><NavLink to='/projects' className={({isActive})=> (isActive ? 'text-white':'')}>Projects</NavLink></li>
+                    <li className='hover:text-white'><NavLink to='/contact' className={({isActive})=> (isActive ? 'text-white':'')}>Contact</NavLink></li>
                 </ul>
             </div>
             <button onClick={()=>setDarkTheme(!darkTheme)}><img src='theme-toggle.svg' width='32px'  /></button>
