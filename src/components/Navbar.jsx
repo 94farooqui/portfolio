@@ -6,11 +6,11 @@ const Navbar = () => {
   const { darkTheme, setDarkTheme } = useContext(themeContext);
   return (
     <div
-      className={`w-full h-[100px] z-10 flex flex-col justify-center  px-6 sticky top-0 left-0`}
+      className={`w-full h-[100px] z-10 flex flex-col justify-center  px-6 sticky top-0 left-0 font-body`}
     >
       <div className="flex justify-between items-center">
         <button
-          className={`w-24 rounded-lg text-slate-400 py-4 px-6 font-semibold text-xl ${
+          className={`w-24 rounded-lg text-slate-400 py-4 font-semibold text-xl ${
             darkTheme ? `bg-zinc-800` : `bg-gray-700`
           }`}
         >
@@ -21,40 +21,42 @@ const Navbar = () => {
             Home
           </NavLink>
         </button>
-        <div className={`rounded-lg py-4 px-12 bg-indigo-500 `}>
-          <ul className="flex gap-8 text-slate-400 font-semibold text-xl">
-            <li className="hover:text-white">
+        <div className={`rounded-lg bg-indigo-500 overflow-hidden`}>
+          <ul className="flex text-slate-400 font-semibold text-xl">
+            
               <NavLink
                 to="/about"
-                className={({ isActive }) => (isActive ? "text-white" : "")}
+                className={({ isActive }) => (isActive ? "text-white shadow-inner shadow-inidgo-900 bg-indigo-700" : "")}
               >
-                About
+                <li className="hover:text-white py-4 px-4">
+                About</li>
               </NavLink>
-            </li>
-            <li className="hover:text-white">
+            
+           
               <NavLink
                 to="/skills"
-                className={({ isActive }) => (isActive ? "text-white" : "")}
+                className={({ isActive }) => (isActive ? "text-white shadow-inner shadow-inidgo-900  bg-indigo-700" : "")}
               >
-                Skills
+                 <li className="hover:text-white py-4 px-4">
+                Skills</li>
               </NavLink>
-            </li>
-            <li className="hover:text-white">
+            
+            
               <NavLink
                 to="/projects"
-                className={({ isActive }) => (isActive ? "text-white" : "")}
-              >
-                Projects
+                className={({ isActive }) => (isActive ? "text-white shadow-inner shadow-inidgo-900 bg-indigo-700" : "")}
+              ><li className="hover:text-white py-4 px-4">
+                Projects</li>
               </NavLink>
-            </li>
-            <li className="hover:text-white">
+            
+            
               <NavLink
                 to="/contact"
-                className={({ isActive }) => (isActive ? "text-white" : "")}
-              >
-                Contact
+                className={({ isActive }) => (isActive ? "text-white shadow-inner shadow-inidgo-900 bg-indigo-700" : "")}
+              ><li className="hover:text-white py-4 px-4">
+                Contact</li>
               </NavLink>
-            </li>
+            
           </ul>
         </div>
         <button

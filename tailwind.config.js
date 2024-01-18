@@ -11,6 +11,9 @@ export default {
         "dark":"#121212",
         "primary":"6200ee",
         "lightGray":"7b7b7b"
+      },
+      fontFamily:{
+        body:["Poppins"]
       }
     },
   },

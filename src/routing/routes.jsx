@@ -1,5 +1,4 @@
 import {createBrowserRouter} from 'react-router-dom'
-import Users from '../pages/Users'
 import React from 'react'
 import Projects from '../pages/Projects'
 import Home from '../pages/Home'
